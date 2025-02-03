@@ -1,0 +1,10 @@
+Date: February 03, 2025
+
+Trainee: Gaurab Neupane 
+
+Training: Linux Fundaments & File System
+
+Details:
+- Basic Linux Commands
+- Permissions :- Owner, Groups & Others
+- Linux File System
