@@ -7,7 +7,6 @@ readonly FILE=~/project_files/welcome.txt
 readonly USER="intern_user"
 readonly GROUP="developers"
 
-
 # Directory Deletion
 echo $(sudo rm -rf $DIR)
 # Remove user 
