@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <main>
+    <h1>Employees Data</h1>
+    <!-- select department  -->
+    <select name="department" id="select-department">
+      <option value="All" selected="selected" disabled>All</option>
+    </select>
+
+    <!-- employee list -->
+    <ul class="employee-list" id="employee-list"></ul>
+    <div id="employee-detail">
+      <h1 id="employee-name"></h1>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Salary</th>
+          </tr>
+        </thead>
+        <tbody id="employee-data">
+        </tbody>
+      </table>
+    </div>
+    <!--total salary of employees listed on the table above -->
+    <div id="total-salary"></div>
+    <!--go back to the employee list-->
+    <div id="go-back"></div>
+
+    <script type="module" src="script.js"> </script>
+</body>
+
+</html>
