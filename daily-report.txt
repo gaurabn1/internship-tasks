@@ -1,0 +1,58 @@
+Date: February 03, 2025
+
+Trainee: Gaurab Neupane 
+
+Training: Linux Fundaments & File System
+
+Details:
+- Basic Linux Commands
+- Permissions :- Owner, Groups & Others
+- Linux File System
+
+
+-------------------------------------------------------------------
+
+Date: February 04, 2025
+
+Trainee: Gaurab Neupane 
+
+Training: Shell Scripting
+
+Details:
+- Basic Shell Scripting
+- Include binaries executables inside script
+- Conditionals and Loops
+- Practical Implementations of Basic shell commands inside script
+- Execution of script files with required executable(x) permission
+- Error Handling in shell scripting
+
+-----------------------------------------------------------------------
+
+Date: February 05, 2025
+
+Trainee: Gaurab Neupane 
+
+Training: Crontab Scripting and Basics of HTML and CSS
+
+Details:
+- Crontab Scripting - Scheduling time based tasks
+- Scheduling top 5 heavy proccess in Linux
+- HTML and CSS - Basics of HTML and CSS
+- HTML Semantics
+- Creation of Simple Website using HTML and CSS
+
+----------------------------------------------------------------------
+
+Date: February 06, 2025
+
+Trainee: Gaurab Neupane 
+
+Training: Higher Order Functions in JS
+
+Details:
+- Learned about map(), filter(), reduce() functions in JS
+- Practical Implementation of Higher Order Functions in JS
+- Basics of TypeScript and its concepts
+- DOM Manipulation using JS
+
+----------------------------------------------------------------------
