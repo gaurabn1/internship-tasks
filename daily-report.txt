@@ -45,7 +45,7 @@ Details:
 
 Date: February 06, 2025
 
-Trainee: Gaurab Neupane 
+Intern: Gaurab Neupane 
 
 Training: Higher Order Functions in JS
 
@@ -56,3 +56,17 @@ Details:
 - DOM Manipulation using JS
 
 ----------------------------------------------------------------------
+
+Date: February 07, 2025
+
+Intern: Gaurab Neupane 
+
+Training: JavaScripts and Typescript concepts
+
+Details:
+- Type vs Interface in Typescript
+- Generics in Typescript
+- Concepts like Call Stack, Callback Queue, MicroQueue, and Event Loop
+- React JS Basics
+
+
