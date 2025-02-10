@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <main>
+    <section id="form">
+      <h1>Registration Form</h1>
+      <form>
+        <div class="form-group">
+          <label for="fname">First Name:</label>
+          <input type="text" id="fname" name="fname" placeholder="First Name">
+          <div id="fname-errors"></div>
+        </div>
+        <div class="form-group">
+          <label for="lname">Last Name:</label>
+          <input type="text" id="lname" name="lname" placeholder="Last Name">
+          <div id="lname-errors"></div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Email">
+          <div id="email-errors"></div>
+        </div>
+        <div class="form-group">
+          <label for="age">Age:</label>
+          <input type="number" id="age" min="10" max="100" name="age" placeholder="Age">
+          <div id="age-errors"></div>
+        </div>
+        <div class="form-group">
+          <label for="gender">Gender:</label>
+          <input type="radio" id="male" name="gender" value="male"> Male
+          <input type="radio" id="female" name="gender" value="female"> Female
+          <div id="gender-errors"></div>
+        </div>
+        <div class="form-group">
+          <label for="course">Course:</label>
+          <input type="radio" id="bca" name="course" value="bca"> BCA
+          <input type="radio" id="bsc-csit" name="course" value="bsc-csit"> BSC CSIT
+          <input type="radio" id="bim" name="course" value="bim"> BIM
+          <input type="radio" id="bit" name="course" value="bit"> BIT
+          <div id="course-errors"></div>
+        </div>
+        <div class="form-group">
+          <label for="sports">Favourite Sports:</label>
+          <input type="checkbox" id="cricket" name="sport" value="Cricket"> Cricket
+          <input type="checkbox" id="football" name="sport" value="Football"> Football
+          <input type="checkbox" id="basketball" name="sport" value="Basketball"> Basketball
+          <input type="checkbox" id="Badminton" name="sport" value="Badminton"> Badminton
+          <div id="sports-errors"></div>
+        </div>
+        <div class="form-group">
+          <label for="certificate">12th Transcript:</label>
+          <input type="file" id="certificate" name="certificate">
+          <div id="file-errors"></div>
+        </div>
+        <div class="form-group">
+          <label for="address">Address:</label>
+          <div id="address">
+            <select name="province" id="province">
+              <option value="province" disabled selected>Province</option>
+            </select>
+            <select name="district" id="district">
+              <option value="district" disabled selected>District</option>
+            </select>
+            <select name="municipality" id="municipality">
+              <option value="municipality" disabled selected>Municipality</option>
+            </select>
+          </div>
+          <div id="address-errors"></div>
+        </div>
+        <div class="form-group">
+          <label for="submission">Submission Date:</label>
+          <input type="date" max="2025-02-10" id="submission" name="submission">
+          <div id="date-errors"></div>
+        </div>
+        <div class="form-group">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </section>
+    <aside style="display: none;">
+      <h1>Registration Data</h1>
+      <div id="render-form">
+        <div class="group-data">
+          <label for="fname">First Name:</label>
+          <span id="fname-data"></span>
+        </div>
+        <hr>
+        <div class="group-data">
+          <label for="lname">Last Name: </label>
+          <span id="lname-data"></span>
+        </div>
+        <hr>
+        <div class="group-data">
+          <label for="email">Email: </label>
+          <span id="email-data"></span>
+        </div>
+        <hr>
+        <div class="group-data">
+          <label for="age">Age: </label>
+          <span id="age-data"></span>
+        </div>
+        <hr>
+        <div class="group-data">
+          <label for="gender">Gender: </label>
+          <span id="gender-data"></span>
+        </div>
+        <hr>
+        <div class="group-data">
+          <label for="course">Course: </label>
+          <span id="course-data"></span>
+        </div>
+        <hr>
+        <div class="group-data">
+          <label for="sports">Favourite Sports: </label>
+          <span id="sports-data"></span>
+        </div>
+        <hr>
+        <div class="group-data">
+          <label for="address">Address: </label>
+          <span id="address-data"></span>
+        </div>
+        <hr>
+        <div clasr="group-data">
+          <label for="submission">Submission Date: </label>
+          <span id="submission-data"></span>
+        </div>
+        <hr>
+        <div class="group-data">
+          <label for="certificate">12th Transcript: </label>
+          <span id="certificate-data"></span>
+        </div>
+        <div>
+          <img onclick="window.print()" width=400 height: 800 style="background-size: cover;" src="" id="render-image"
+            alt="">
+        </div>
+      </div>
+    </aside>
+  </main>
+  <script type="module" src="js/script.js"></script>
+</body>
+
+</html>

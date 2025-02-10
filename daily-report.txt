@@ -69,4 +69,17 @@ Details:
 - Concepts like Call Stack, Callback Queue, MicroQueue, and Event Loop
 - React JS Basics
 
+----------------------------------------------------------------------
+
+Date: February 10, 2025
+
+Intern: Gaurab Neupane 
+
+Training: Form Validation and Basics of React JS
+
+Details:
+- Form Validation using JavaScript
+- State Management
+- React Lifecycle Methods
+- Hooks: useEffect Hook, useRef Hook
 
