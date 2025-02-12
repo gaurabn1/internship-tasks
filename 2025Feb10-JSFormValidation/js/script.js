@@ -86,7 +86,6 @@ document.addEventListener('DOMContentLoaded', () => {
     for(let i=0; i<name.length; i++){
       let ch = name.charCodeAt(i)
       if(!(ch >= 65 && ch <= 90) && !(ch >= 97 && ch <= 122)){
-        const p = document.createElement('p');
         p.style.color = 'red';
         p.textContent = 'Special characters and numbers are not allowed';
         ErrorEl.appendChild(p);
@@ -97,20 +96,19 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function firstNameValidations(fname){
-    const fnameErrors = document.querySelector('#fname-errors');
-    fnameErrors.innerHTML = '';
+    const fnameError = document.querySelector('#fname-errors');
+    fnameError.innerHTML = '';
 
-    const check = checkSpecialCharacters(fnameErrors, fname);
+    const check = checkSpecialCharacters(fnameError, fname);
     if(check === false){
       return check;
     }
     if(!fname) {
-      const p = document.createElement('p');
-      p.style.color = 'red';
-      p.style.marginTop = '5px';
-      p.textContent = 'First name is required';
+      fnameError.style.color = 'red';
+      fnameError.style.marginTop = '5px';
+      fnameError.textContent = '*';
 
-      fnameErrors.appendChild(p); 
+      //fnameError.appendChild(p); 
       return false;
     }else{
       return true;
@@ -127,11 +125,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     if(!lname) {
-      const p = document.createElement('p');
-      p.style.color = 'red';
-      p.style.marginTop = '5px';
-      p.textContent = 'Last name is required';
-      lnameErrors.appendChild(p); 
+      lnameErrors.style.color = 'red';
+      lnameErrors.style.marginTop = '5px';
+      lnameErrors.textContent = '*';
       return false;
     }else{
       return true;
@@ -143,11 +139,9 @@ document.addEventListener('DOMContentLoaded', () => {
     emailErrors.innerHTML = '';
     //if email field is empty
     if(!email) {
-      const p = document.createElement('p');
-      p.style.color = 'red';
-      p.style.marginTop = '5px';
-      p.textContent = 'Email is required';
-      emailErrors.appendChild(p); 
+      emailErrors.style.color = 'red';
+      emailErrors.style.marginTop = '5px';
+      emailErrors.textContent = '*';
       return false;
     }else{
       return true;
@@ -158,11 +152,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const ageErrors = document.querySelector('#age-errors');
     ageErrors.innerHTML = '';
     if(!age){
-      const p = document.createElement('p');
-      p.style.color = 'red';
-      p.style.marginTop = '5px';
-      p.textContent = 'Age is required';
-      ageErrors.appendChild(p); 
+      ageErrors.style.color = 'red';
+      ageErrors.style.marginTop = '5px';
+      ageErrors.textContent = '*';
       return false;
     }else{
       return true;
@@ -173,11 +165,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const genderErrors = document.querySelector('#gender-errors');
     genderErrors.innerHTML = '';
     if(gender === null) {
-      const p = document.createElement('p');
-      p.style.color = 'red';
-      p.style.marginTop = '5px';
-      p.textContent = 'Gender is required';
-      genderErrors.appendChild(p);
+      genderErrors.style.color = 'red';
+      genderErrors.style.marginTop = '5px';
+      genderErrors.textContent = '*';
       return false;
     }else{
       return true;
@@ -188,11 +178,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const courseErrors = document.querySelector('#course-errors');
     courseErrors.innerHTML = '';
     if(course == null){
-      const p = document.createElement('p');
-      p.style.color = 'red';
-      p.style.marginTop = '5px';
-      p.textContent = 'Course is required';
-      courseErrors.appendChild(p);
+      courseErrors.style.color = 'red';
+      courseErrors.style.marginTop = '5px';
+      courseErrors.textContent = '*';
       return false;
     }else{
       return true;
@@ -203,11 +191,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const sportsErrors = document.querySelector('#sports-errors');
     sportsErrors.innerHTML = '';
     if (sports.length === 0){
-      const p = document.createElement('p');
-      p.style.color = 'red';
-      p.style.marginTop = '5px';
-      p.textContent = 'Check at least a sport';
-      sportsErrors.appendChild(p);
+      sportsErrors.style.color = 'red';
+      sportsErrors.style.marginTop = '5px';
+      sportsErrors.textContent = '*';
       return false;
     }else{
       return true;
@@ -224,30 +210,24 @@ document.addEventListener('DOMContentLoaded', () => {
     fileErrors.innerHTML = '';
 
     if(!file){
-      const p = document.createElement('p');
-      p.style.color = 'red';
-      p.style.marginTop = '5px';
-      p.textContent = 'File is required';
-      fileErrors.appendChild(p);
+      fileErrors.style.color = 'red';
+      fileErrors.style.marginTop = '5px';
+      fileErrors.textContent = '*';
       return false;
     }
 
     if(file && file.size > 5242880){
-      const p = document.createElement('p');
-      p.style.color = 'red';
-      p.style.marginTop = '5px';
-      p.textContent = 'Filesize should be less than 5mb';
-      fileErrors.appendChild(p);
+      fileErrors.style.color = 'red';
+      fileErrors.style.marginTop = '5px';
+      fileErrors.textContent = 'Filesize should be less than 5mb';
       return false;
     }
 
       const extension = getFileExtension(file.name);
       if(extension !== 'jpg' && extension !== 'png' && extension !== 'jpeg' && extension !== 'webp') {
-        const p = document.createElement('p');
-        p.style.color = 'red';
-        p.style.marginTop = '5px';
-        p.textContent = 'Upload a valid file (jpg, png, jpeg, webp)';
-        fileErrors.appendChild(p);
+        fileErrors.style.color = 'red';
+        fileErrors.style.marginTop = '5px';
+        fileErrors.textContent = 'Upload a valid file (jpg, png, jpeg, webp)';
         return false;
     }
       return true;
@@ -258,11 +238,9 @@ document.addEventListener('DOMContentLoaded', () => {
     dateErrors.innerHTML = '';
 
     if(!submissionDate){
-      const p = document.createElement('p');
-      p.style.color = 'red';
-      p.style.marginTop = '5px';
-      p.textContent = 'Submission date is required';
-      dateErrors.appendChild(p);
+      dateErrors.style.color = 'red';
+      dateErrors.style.marginTop = '5px';
+      dateErrors.textContent = '*';
       return false;
     }
 
@@ -273,11 +251,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const addressErrors = document.querySelector('#address-errors');
     addressErrors.innerHTML = '';
     if(province === 'province' || province === '' || district === 'district' || district === '' || municipality === 'municipality' || municipality === ''){
-      const p = document.createElement('p');
-      p.style.color = 'red';
-      p.style.marginTop = '5px';
-      p.textContent = 'Address is required';
-      addressErrors.appendChild(p);
+      addressErrors.style.color = 'red';
+      addressErrors.style.marginTop = '5px';
+      addressErrors.textContent = '*';
       return false;
     }else{
       return true;
