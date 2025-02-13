@@ -83,3 +83,16 @@ Details:
 - React Lifecycle Methods
 - Hooks: useEffect Hook, useRef Hook
 
+----------------------------------------------------------------------
+
+Date: February 12, 2025
+
+Intern: Gaurab Neupane 
+
+Training: Form Validation using Class in JavaScript and Tailwind Setup in Vite
+
+Details:
+- Form Validation using Class in JavaScript
+- Setup Tailwind css in Vite
+- Implementing Tailwind in React
+- Shadcn Setup

@@ -1,0 +1,12 @@
+a:hover {
+  color: oklch(.777 .152 181.912);
+}
+
+#projects-list li:hover {
+  background-color: #1F1F22;
+}
+
+footer {
+  padding: 2rem 0;
+  border-top: 3px solid #1F1F22;
+}

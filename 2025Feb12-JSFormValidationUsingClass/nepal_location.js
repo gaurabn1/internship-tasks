@@ -1,4 +1,5 @@
 export const nepal_location = {
+
     "provinceList": [
         {
             "id": 1,

@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@plugin "tailwindcss-animate";
+
+@custom-variant dark (&:is(.dark *));
+
+* {
+  color: #C0C0C4;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background-color: black;
+}
