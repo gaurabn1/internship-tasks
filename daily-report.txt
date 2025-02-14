@@ -96,3 +96,33 @@ Details:
 - Setup Tailwind css in Vite
 - Implementing Tailwind in React
 - Shadcn Setup
+
+----------------------------------------------------------------------
+
+Date: February 13, 2025
+
+Intern: Gaurab Neupane 
+
+Training: Concepts of Next JS
+
+Details:
+- Built a Portfolio Website using React JS, Tailwind CSS, Shadcn
+- Next Js Basics: CSR, SSR, App Routing
+- Default Caching in Next JS
+- Integrating CSS Modules, and daisyUI in Next JS
+
+----------------------------------------------------------------------
+
+Date: February 14, 2025
+
+Intern: Gaurab Neupane 
+
+Training: Concepts of Next JS
+
+Details:
+- CSS Styling: Tailwind CSS, CSS Modules, cslx 
+- Layouts & Pages
+- Streaming
+- Suspence & Fallback to handle loading state
+- App Router
+- Static and Dynamic Rendering
