@@ -126,3 +126,30 @@ Details:
 - Suspence & Fallback to handle loading state
 - App Router
 - Static and Dynamic Rendering
+
+----------------------------------------------------------------------
+
+Date: February 17, 2025
+
+Intern: Gaurab Neupane 
+
+Training: Next JS Project
+
+Details:
+- use of API in Next JS
+- CRUD implementation
+- Multi step form
+- Book Store App
+
+----------------------------------------------------------------------
+
+Date: February 18, 2025
+
+Intern: Gaurab Neupane 
+
+Training: Project Collaboration 
+
+Details:
+- Project Collaboration with team members
+- Django Rest Framework API
+- Next JS BookStore Dashboard
