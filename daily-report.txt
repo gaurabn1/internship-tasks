@@ -153,3 +153,16 @@ Details:
 - Project Collaboration with team members
 - Django Rest Framework API
 - Next JS BookStore Dashboard
+
+----------------------------------------------------------------------
+
+Date: February 19, 2025
+
+Intern: Gaurab Neupane 
+
+Training: Backend Code Implementation using Django
+
+Details:
+- Frontend and Backend Github Merge
+- Recipes CRUD API with Django REST
+- Postgres Database Integeration
