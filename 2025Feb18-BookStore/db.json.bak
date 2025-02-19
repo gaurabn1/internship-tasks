@@ -1,0 +1,114 @@
+{
+  "books": [
+    {
+      "id" : 1,
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "isbn": "9780735211292",
+      "genre": "Self-Help",
+      "price": 15.99,
+      "stock_quantity": 50,
+      "published_date": "2018-10-16",
+      "status": "Active"
+    },
+    {
+      "id" : 2,
+      "title": "The Pragmatic Programmer",
+      "author": "Andrew Hunt, David Thomas",
+      "isbn": "9780135957059",
+      "genre": "Programming",
+      "price": 39.99,
+      "stock_quantity": 30,
+      "published_date": "1999-10-30",
+      "status": "Active"
+    },
+    {
+      "id" : 3,
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "isbn": "9780132350881",
+      "genre": "Programming",
+      "price": 34.99,
+      "stock_quantity": 25,
+      "published_date": "2008-08-01",
+      "status": "Active"
+    },
+    {
+      "id" : 4,
+      "title": "1984",
+      "author": "George Orwell",
+      "isbn": "9780451524935",
+      "genre": "Dystopian",
+      "price": 12.99,
+      "stock_quantity": 40,
+      "published_date": "1949-06-08",
+      "status": "Active"
+    },
+    {
+      "id" : 5,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "isbn": "9780061122415",
+      "genre": "Fiction",
+      "price": 14.99,
+      "stock_quantity": 35,
+      "published_date": "1988-01-01",
+      "status": "Active"
+    },
+    {
+      "id" : 6,
+      "title": "Sapiens: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "isbn": "9780062316097",
+      "genre": "History",
+      "price": 18.99,
+      "stock_quantity": 20,
+      "published_date": "2011-09-04",
+      "status": "Active"
+    },
+    {
+      "id" : 7,
+      "title": "Rich Dad Poor Dad",
+      "author": "Robert T. Kiyosaki",
+      "isbn": "9781612680194",
+      "genre": "Finance",
+      "price": 10.99,
+      "stock_quantity": 45,
+      "published_date": "1997-04-01",
+      "status": "Active"
+    },
+    {
+      "id" : 8,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "isbn": "9780061120084",
+      "genre": "Classic",
+      "price": 11.99,
+      "stock_quantity": 28,
+      "published_date": "1960-07-11",
+      "status": "Active"
+    },
+    {
+      "id" : 9,
+      "title": "The Psychology of Money",
+      "author": "Morgan Housel",
+      "isbn": "9780857197689",
+      "genre": "Finance",
+      "price": 16.99,
+      "stock_quantity": 32,
+      "published_date": "2020-09-08",
+      "status": "Active"
+    },
+    {
+      "id" : 10,
+      "title": "Django for Beginners",
+      "author": "William S. Vincent",
+      "isbn": "9781735467221",
+      "genre": "Programming",
+      "price": 24.99,
+      "stock_quantity": 15,
+      "published_date": "2018-06-15",
+      "status": "Active"
+    }
+  ]
+}

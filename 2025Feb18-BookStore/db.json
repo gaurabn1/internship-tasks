@@ -1,0 +1,141 @@
+{
+  "books": [
+    {
+      "id": "1a2b",
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "isbn": "9780735211292",
+      "genre": "Self-Help",
+      "price": 15.99,
+      "stock_quantity": 55,
+      "status": "Discontinued",
+      "published_date": "2018-10-16",
+      "total_items_sold": 40,
+      "total_sales": 639.6
+    },
+    {
+      "id": "2c3d",
+      "title": "The Pragmatic Programmer",
+      "author": "Andrew Hunt, David Thomas",
+      "isbn": "9780135957059",
+      "genre": "Programming",
+      "price": 39.99,
+      "stock_quantity": 30,
+      "status": "Discontinued",
+      "published_date": "1999-10-30",
+      "total_items_sold": 25,
+      "total_sales": 999.75
+    },
+    {
+      "id": "3e4f",
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "isbn": "9780132350881",
+      "genre": "Programming",
+      "price": 34.99,
+      "stock_quantity": 25,
+      "published_date": "2008-08-01",
+      "status": "Available",
+      "total_items_sold": 20,
+      "total_sales": 699.8
+    },
+    {
+      "id": "4g5h",
+      "title": "1984",
+      "author": "George Orwell",
+      "isbn": "9780451524935",
+      "genre": "Dystopian",
+      "price": 12.99,
+      "stock_quantity": 40,
+      "status": "Discontinued",
+      "published_date": "1949-06-08",
+      "total_items_sold": 30,
+      "total_sales": 389.7
+    },
+    {
+      "id": "5i6j",
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "isbn": "9780061122415",
+      "genre": "Fiction",
+      "price": 14.99,
+      "stock_quantity": 0,
+      "status": "Out of Stock",
+      "published_date": "1988-01-01",
+      "total_items_sold": 50,
+      "total_sales": 749.5
+    },
+    {
+      "id": "6k7l",
+      "title": "Sapiens: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "isbn": "9780062316097",
+      "genre": "History",
+      "price": 18.99,
+      "stock_quantity": 20,
+      "published_date": "2011-09-04",
+      "status": "Available",
+      "total_items_sold": 15,
+      "total_sales": 284.85
+    },
+    {
+      "id": "7m8n",
+      "title": "Rich Dad Poor Dad",
+      "author": "Robert T. Kiyosaki",
+      "isbn": "9781612680194",
+      "genre": "Finance",
+      "price": 10.99,
+      "stock_quantity": 45,
+      "published_date": "1997-04-01",
+      "status": "Available",
+      "total_items_sold": 40,
+      "total_sales": 439.6
+    },
+    {
+      "id": "8o9p",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "isbn": "9780061120084",
+      "genre": "Classic",
+      "price": 11.99,
+      "stock_quantity": 0,
+      "status": "Out of Stock",
+      "published_date": "1960-07-11",
+      "total_items_sold": 30,
+      "total_sales": 359.7
+    },
+    {
+      "id": "7484",
+      "title": "Title",
+      "author": "Author",
+      "isbn": "isbn123",
+      "genre": "genre",
+      "price": 2,
+      "stock_quantity": 2,
+      "status": "Available",
+      "published_date": "2020",
+      "total_items_sold": 4.2,
+      "total_sales": 8.4
+    }
+  ],
+  "card-data": [
+    {
+      "title": 4570.9,
+      "description": "Total Sales",
+      "content": "+19% from last month",
+      "id": "1"
+    },
+    {
+      "title": "2350",
+      "description": "Total Stock",
+      "content": "+180.1% from last month",
+      "id": "2"
+    },
+    {
+      "title": "12,234",
+      "description": "Sales",
+      "content": "+19% from last month",
+      "id": "3"
+    }
+  ]
+}
