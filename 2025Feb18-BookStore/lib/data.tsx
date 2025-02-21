@@ -9,8 +9,6 @@ export async function fetcher(path: string, method: string, body: object | null,
     headers: headers || { 'Content-Type': 'application/json' },
     body: body ? JSON.stringify(body) : null,
   }).then((res) => {
-    console.log(res.ok)
-    console.log(res)
     if (!res.ok) {
       throw new Error(`HTTP error! Status: ${res.status}`);
     }

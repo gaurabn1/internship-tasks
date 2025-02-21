@@ -19,7 +19,6 @@ import { DialogFooter } from "@/components/ui/dialog"
 import { FormProps } from "../_types/FormProps"
 import { TotalItemsSold } from "../_lib/total-items-sold"
 import { TotalSales } from "../_lib/total-sales"
-//import { ToastContainer, toast } from 'react-toastify';
 
 const Form: React.FC<FormProps> = ({ id }) => {
 
@@ -71,21 +70,28 @@ const Form: React.FC<FormProps> = ({ id }) => {
     })
   }
 
-  async function handleUpdateBook() {
-    const res = await UpdateBook(id, book)
+  function handleUpdateBook() {
+    UpdateBook(id, book)
     setBook(DEFAULT_BOOK);
     TotalSales(true)
+    toast({
+      title: 'Success',
+      description: 'Book updated successfully',
+    })
   }
 
-  async function handleAddBook() {
+  function handleAddBook() {
     // Add the Book to the database
-    const res = await AddBooks(book)
+    AddBooks(book)
     // Reset the table data
     setBook(DEFAULT_BOOK);
     // Get the total sales and Update the card data
     TotalSales(true)
     // Show a success message
-
+    toast({
+      title: 'Success',
+      description: 'Book added successfully',
+    })
   }
 
   function handleSubmit(e: React.FormEvent<HTMLFormElement>) {

@@ -13,10 +13,10 @@ export default async function Page() {
 
   return (
     <div className="flex flex-1 flex-col gap-4 p-4 pt-0">
-      <div className="grid auto-rows-min gap-4 md:grid-cols-3">
+      <div className="grid auto-rows-min gap-4 md:grid-cols-2">
         {
           Object.entries(data).map(([key, value]) => (
-            <div className="aspect-[16/4] rounded-xl" key={key}>
+            <div className="aspect-[16/1] rounded-xl" key={key}>
               <CardDashboard title={value.title} description={value.description} content={value.content} />
             </div>
           ))

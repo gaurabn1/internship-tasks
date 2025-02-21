@@ -1,17 +1,17 @@
 {
   "books": [
     {
-      "id": "1a2b",
       "title": "Atomic Habits",
       "author": "James Clear",
       "isbn": "9780735211292",
       "genre": "Self-Help",
       "price": 15.99,
-      "stock_quantity": 55,
+      "stock_quantity": 50,
       "status": "Discontinued",
       "published_date": "2018-10-16",
-      "total_items_sold": 40,
-      "total_sales": 639.6
+      "total_items_sold": 21.18,
+      "total_sales": 338.74,
+      "id": "1a2b"
     },
     {
       "id": "2c3d",
@@ -92,50 +92,31 @@
       "total_sales": 439.6
     },
     {
-      "id": "8o9p",
       "title": "To Kill a Mockingbird",
       "author": "Harper Lee",
       "isbn": "9780061120084",
       "genre": "Classic",
       "price": 11.99,
-      "stock_quantity": 0,
+      "stock_quantity": 2,
       "status": "Out of Stock",
       "published_date": "1960-07-11",
-      "total_items_sold": 30,
-      "total_sales": 359.7
-    },
-    {
-      "id": "7484",
-      "title": "Title",
-      "author": "Author",
-      "isbn": "isbn123",
-      "genre": "genre",
-      "price": 2,
-      "stock_quantity": 2,
-      "status": "Available",
-      "published_date": "2020",
-      "total_items_sold": 4.2,
-      "total_sales": 8.4
+      "total_items_sold": 6.18,
+      "total_sales": 74.07,
+      "id": "8o9p"
     }
   ],
   "card-data": [
     {
-      "title": 4570.9,
+      "title": 3935.3,
       "description": "Total Sales",
       "content": "+19% from last month",
       "id": "1"
     },
     {
-      "title": "2350",
+      "title": 211,
       "description": "Total Stock",
-      "content": "+180.1% from last month",
-      "id": "2"
-    },
-    {
-      "title": "12,234",
-      "description": "Sales",
       "content": "+19% from last month",
-      "id": "3"
+      "id": "2"
     }
   ]
 }

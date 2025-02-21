@@ -166,3 +166,31 @@ Details:
 - Frontend and Backend Github Merge
 - Recipes CRUD API with Django REST
 - Postgres Database Integeration
+
+----------------------------------------------------------------------
+
+Date: February 20, 2025
+
+Intern: Gaurab Neupane 
+
+Training: RTK, TanStack Query, and Project
+
+Details:
+- Redux Toolkit Kit
+- TanStack Query
+- New Feature Added in the Project
+
+----------------------------------------------------------------------
+
+Date: February 21, 2025
+
+Intern: Gaurab Neupane 
+
+Training: Postgresql and its concepts
+
+Details:
+- Postgres Setup
+- User Creation and Management
+- Database creation
+- Querying the database
+- Database Relationships:  One to One, One to Many, Many to Many, Many to One

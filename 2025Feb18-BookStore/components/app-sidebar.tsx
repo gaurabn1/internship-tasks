@@ -29,25 +29,15 @@ import {
 // This is sample data.
 const data = {
   user: {
-    name: "shadcn",
-    email: "m@example.com",
+    name: "Gaurab",
+    email: "gaurab@mail.com",
     avatar: "/avatars/shadcn.jpg",
   },
   teams: [
     {
-      name: "Acme Inc",
+      name: "Cloco",
       logo: GalleryVerticalEnd,
       plan: "Enterprise",
-    },
-    {
-      name: "Acme Corp.",
-      logo: AudioWaveform,
-      plan: "Startup",
-    },
-    {
-      name: "Evil Corp.",
-      logo: Command,
-      plan: "Free",
     },
   ],
   navMain: [
@@ -61,17 +51,7 @@ const data = {
       title: "Books",
       url: "/books",
       icon: BookOpen,
-    },
-    {
-      title: "Documentation",
-      url: "#",
-      icon: Bot,
-    },
-    {
-      title: "Settings",
-      url: "#",
-      icon: Settings2,
-    },
+    }
   ],
   projects: [
     {
