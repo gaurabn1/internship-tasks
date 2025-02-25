@@ -194,3 +194,19 @@ Details:
 - Database creation
 - Querying the database
 - Database Relationships:  One to One, One to Many, Many to Many, Many to One
+
+----------------------------------------------------------------------
+
+Date: February 25, 2025
+
+Intern: Gaurab Neupane 
+
+Training: Postgresql 
+
+Details:
+- ER Diagram
+- Book store database creation with postgresql
+- Joins in postgresql: Inner, Left, Right, Full, Cross
+- Subqueries in postgresql
+- Aggregate functions in postgresql: Count, Sum, Avg, Max, Min, etc 
+
