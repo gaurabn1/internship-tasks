@@ -210,3 +210,16 @@ Details:
 - Subqueries in postgresql
 - Aggregate functions in postgresql: Count, Sum, Avg, Max, Min, etc 
 
+----------------------------------------------------------------------
+
+Date: February 26, 2025
+
+Intern: Gaurab Neupane 
+
+Training: Permissions and Access Control in PostgreSQL 
+
+Details:
+- Understanding roles and privileges in PostgreSQL
+- Creating users and assigning privileges to them
+- Using schemas for better permission management
+- Granting and revoking privileges on databases and tables
