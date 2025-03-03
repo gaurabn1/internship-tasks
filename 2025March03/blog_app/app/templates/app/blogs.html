@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class=' rounded-2xl'>
+  <!--navbar-->
+  {% include 'app/navbar.html' %}
+  <main class="h-full flex gap-4 flex-col w-full mb-5">
+    <div class="flex justify-end items-center py-2 px-4">
+      <form action="" method="GET">
+        {% csrf_token %}
+        <select name="categories" onchange="this.form.submit()">
+          <option selected value="">Choose a category</option>
+          {% for category in categories %}
+          <option value="{{category.name}}" {% if category.name == request.GET.categories %} selected {% endif %} >{{ category.name }}</option>
+          {% endfor %}
+        </select>
+      </form>
+    </div>
+    <div class="grid grid-cols-3 gap-3">
+      {% if blogs %}
+      {% for blog in blogs %}
+      <div class="flex flex-col justify-end gap-4 border border-black p-4 w-full">
+        <!--<img class=" w-full border-b border-black" src="{{ blog.image.url  }}" alt="{{blog.title}}">-->
+        <img class=" w-full border-b border-black" src="{{ blog.image_url  }}" alt="{{blog.title}}">
+        <h2 class="text-2xl font-bold">{{ blog.title }}</h2>
+        <div class="flex gap-2">
+          <small class="font-bold capitalize">{{ blog.author }}</small>
+          <small>{{blog.created_at | date}} - {{blog.created_at | time}}</small>
+        </div>
+        <div class="flex gap-4">
+          <button class="border border-black px-4 py-2 hover:bg-black hover:text-white">
+            <a href="{% url 'blog_detail' blog.id %}">View</a>
+          </button>
+        </div>
+      </div>
+      {% endfor %}
+      {% endif %}
+    </div>
+  </main>
+</div>
+{% endblock content %}

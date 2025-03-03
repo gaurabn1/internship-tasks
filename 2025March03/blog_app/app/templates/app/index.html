@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <div class='bg-[#f1f1f1] rounded-2xl'>
+  <!--navbar-->
+  {% include 'app/navbar.html' %}
+
+  <!--main-->
+  <main class="h-[calc(100vh-73px)] flex gap-2 items-center justify-center flex-col">
+    <h2 class="text-4xl font-bold">Best Blogs in the town</h2>
+    <p>You can find the best blogs in this world.</p>
+      <button class="border border-black px-4 py-2 hover:bg-black hover:text-white">
+        <a href="{% url 'blogs' %}">Get Started</a>
+      </button>
+  </main>
+  </div>
+{% endblock content %}

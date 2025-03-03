@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags tailwind_tags %}
+
+{% block content %}
+{% include 'app/navbar.html' %}
+<form method="POST" action="{% url 'blog_edit' blog.id %}" class="flex flex-col gap-4 w-full", enctype="multipart/form-data">
+  {% csrf_token %}
+  <h2 class="text-2xl my-4 font-bold">Edit Blog</h2>
+  <p>{{ form.title.label_tag }} {{ form.title }}</p>
+  <p>{{ form.content.label_tag }} </p>
+  <p>{{ form.content }}</p>
+  <p>{{ form.category.label_tag }}</p>
+  <p>{{ form.category }}</p>
+  <button type="submit" class="border border-black px-4 py-2 hover:bg-black hover:text-white w-fit">Update</button>
+</form>
+{% endblock content %}
