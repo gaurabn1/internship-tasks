@@ -223,3 +223,34 @@ Details:
 - Creating users and assigning privileges to them
 - Using schemas for better permission management
 - Granting and revoking privileges on databases and tables
+
+
+----------------------------------------------------------------------
+
+Date: February 27, 2025
+
+Intern: Gaurab Neupane 
+
+Training: Django RestFramework
+
+Details:
+- Django ORM
+- Django REST Framework Basics
+- Serialization and Deserialization
+- Class Based View and Function Based View in Django REST Framework
+
+----------------------------------------------------------------------
+
+Date: February 28, 2025
+
+Intern: Gaurab Neupane 
+
+Training: Django 
+
+Details:
+- Django Templates
+- Django Forms
+- Jinja2 Template Engine
+- Blog app with django
+- Django Authentication
+- MVT Architecture
