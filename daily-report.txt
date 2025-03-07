@@ -224,7 +224,6 @@ Details:
 - Using schemas for better permission management
 - Granting and revoking privileges on databases and tables
 
-
 ----------------------------------------------------------------------
 
 Date: February 27, 2025
@@ -245,7 +244,7 @@ Date: February 28, 2025
 
 Intern: Gaurab Neupane 
 
-Training: Django 
+Training: Django & Django Blog App
 
 Details:
 - Django Templates
@@ -254,3 +253,74 @@ Details:
 - Blog app with django
 - Django Authentication
 - MVT Architecture
+
+----------------------------------------------------------------------
+
+Date: March 03, 2025
+
+Intern: Gaurab Neupane 
+
+Training: Django decorator and functional based view 
+
+Details:
+- Functional based view
+- Integration of Email Backend
+- Decorator
+- api_view decorator for building api
+
+----------------------------------------------------------------------
+
+Date: March 04, 2025
+
+Intern: Gaurab Neupane 
+
+Training: Django Blog Api
+
+Details:
+- Django Blog Api with JWT Authentication
+- Generics Api View
+- ModelViewSet
+- use of Router in Django Rest Framework
+
+
+----------------------------------------------------------------------
+
+Date: March 05, 2025
+
+Intern: Gaurab Neupane 
+
+Training: Django Book Store API
+
+Details:
+- Functional based api
+- Many to Many Relationship with through table
+- implemented serializers.Serializer
+- Serializer for many to many relationship
+
+----------------------------------------------------------------------
+
+Date: March 06, 2025
+
+Intern: Gaurab Neupane 
+
+Training: NextJs and Django
+
+Details:
+- git branching concepts
+- upstream branch
+- handling cookies in next.js middleware
+- API authentication in django
+
+----------------------------------------------------------------------
+
+Date: March 07, 2025
+
+Intern: Gaurab Neupane 
+
+Training: NextJs and Django
+
+Details:
+- Nextjs middleware
+- nextjs api routes
+- server side rendering in nextjs
+- book store app with nextjs and django
