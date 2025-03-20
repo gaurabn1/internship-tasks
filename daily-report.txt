@@ -417,3 +417,16 @@ Training: Artist Management System
 Details:
 - Implemented Raw Query for Authentication
 - Frontend and Backend Integration
+
+----------------------------------------------------------------------
+
+Date: March 20, 2025
+
+Intern: Gaurab Neupane 
+
+Training: Artist Management System
+
+Details:
+- Login page UI
+- setup types for each model in Nextjs
+- setup tanstack query in Nextjs 
