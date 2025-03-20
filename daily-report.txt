@@ -324,3 +324,96 @@ Details:
 - nextjs api routes
 - server side rendering in nextjs
 - book store app with nextjs and django
+
+----------------------------------------------------------------------
+
+Date: March 10, 2025
+
+Intern: Gaurab Neupane 
+
+Training: Django PyJWT
+
+Details:
+- Jwt in Django
+- Jwt Fragments: Header, Payload, Signature 
+- Jwt Multivariants: HMAC, RSA, ECDSA
+- Jwt Validation
+
+----------------------------------------------------------------------
+
+Date: March 11, 2025
+
+Intern: Gaurab Neupane 
+
+Training: Django
+
+Details:
+- Django Best Practices
+- Django Signals
+- JWT standard claims: iat, exp, jti
+- JWT Token rotation
+
+----------------------------------------------------------------------
+
+Date: March 12, 2025
+
+Intern: Gaurab Neupane 
+
+Training: NextJs Translation
+
+Details:
+- Internationalization (i18n) Routing
+- Implementation of i18n
+- Sub-path Routing
+
+----------------------------------------------------------------------
+
+Date: March 14, 2025
+
+Intern: Gaurab Neupane 
+
+Training: NextJs and Django
+
+Details:
+- Unauthorized Page in NextJs
+- Artist Management System setup in Django
+- DRF Best Practices
+
+----------------------------------------------------------------------
+
+Date: March 17, 2025
+
+Intern: Gaurab Neupane 
+
+Training: Artist Management System
+
+Details:
+- Services and Selectors in Django 
+- Artist Management System setup in Nextjs
+- JWT setup using pyjwt
+
+----------------------------------------------------------------------
+
+Date: March 18, 2025
+
+Intern: Gaurab Neupane 
+
+Training: Artist Management System
+
+Details:
+- Implementation of Services and Selectors
+- Bug Fixes
+- Dashboard UI in Nextjs
+- Raw Query in Django
+
+----------------------------------------------------------------------
+
+Date: March 19, 2025
+
+Intern: Gaurab Neupane 
+
+Training: Artist Management System
+
+Details:
+- Implemented Raw Query for Authentication
+- Frontend and Backend Integration
