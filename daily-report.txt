@@ -430,3 +430,16 @@ Details:
 - Login page UI
 - setup types for each model in Nextjs
 - setup tanstack query in Nextjs 
+
+----------------------------------------------------------------------
+
+Date: March 21, 2025
+
+Intern: Gaurab Neupane 
+
+Training: Artist Management System
+
+Details:
+- Refactored Backend Code
+- Sidebar UI improvements
+- Made Login page functional
