@@ -443,3 +443,42 @@ Details:
 - Refactored Backend Code
 - Sidebar UI improvements
 - Made Login page functional
+
+----------------------------------------------------------------------
+
+Date: March 27, 2025
+
+Intern: Gaurab Neupane 
+
+Training: Artist Management System
+
+Details:
+- Refactored Frontend 
+- Implemented Data table in Nextjs
+- Middleware in Nextjs
+
+----------------------------------------------------------------------
+
+Date: March 28, 2025
+
+Intern: Gaurab Neupane 
+
+Training: Artist Management System
+
+Details:
+- Refactored code
+- Implemented Sheet in Nextjs
+- Implemented Pagination and Filter data
+
+----------------------------------------------------------------------
+
+Date: March 31, 2025
+
+Intern: Gaurab Neupane 
+
+Training: Artist Management System
+
+Details:
+- Refactored code
+- Profile Page in Nextjs
+- Dashboard UI
