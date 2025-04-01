@@ -469,3 +469,16 @@ Details:
 - Refactored code
 - Implemented Sheet in Nextjs
 - Implemented Pagination and Filter data
+
+----------------------------------------------------------------------
+
+Date: March 31, 2025
+
+Intern: Gaurab Neupane 
+
+Training: Artist Management System
+
+Details:
+- Refactored code
+- Profile Page in Nextjs
+- Dashboard UI
