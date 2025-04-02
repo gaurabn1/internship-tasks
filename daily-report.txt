@@ -482,3 +482,17 @@ Details:
 - Refactored code
 - Profile Page in Nextjs
 - Dashboard UI
+
+----------------------------------------------------------------------
+
+Date: April 01, 2025
+
+Intern: Gaurab Neupane 
+
+Training: Artist Management System
+
+Details:
+- Refactored code and fixed bugs
+- Role Based View for Artist and Artist Manager
+- Dashboard UI Enhancemnt 
+
