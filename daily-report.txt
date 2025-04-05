@@ -496,3 +496,16 @@ Details:
 - Role Based View for Artist and Artist Manager
 - Dashboard UI Enhancemnt 
 
+----------------------------------------------------------------------
+
+Date: April 04, 2025
+
+Intern: Gaurab Neupane 
+
+Training: Artist Management System
+
+Details:
+- Refactored code
+- Added Carousel for Albums
+- Configured Pagination in Django
+
