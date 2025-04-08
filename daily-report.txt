@@ -509,3 +509,16 @@ Details:
 - Added Carousel for Albums
 - Configured Pagination in Django
 
+----------------------------------------------------------------------
+
+Date: April 07, 2025
+
+Intern: Gaurab Neupane 
+
+Training: Artist Management System
+
+Details:
+- Refactored code
+- Added Managers table and form
+- Implementated backend for superadmin role user
+
