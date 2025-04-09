@@ -520,5 +520,18 @@ Training: Artist Management System
 Details:
 - Refactored code
 - Added Managers table and form
-- Implementated backend for superadmin role user
+- Implementated backend for superadmin role
+
+----------------------------------------------------------------------
+
+Date: April 08, 2025
+
+Intern: Gaurab Neupane 
+
+Training: Artist Management System
+
+Details:
+- Refactored code
+- Added Charts
+- Added Stats in Dashboard
 
