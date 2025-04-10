@@ -535,3 +535,29 @@ Details:
 - Added Charts
 - Added Stats in Dashboard
 
+----------------------------------------------------------------------
+
+Date: April 08, 2025
+
+Intern: Gaurab Neupane 
+
+Training: Artist Management System
+
+Details:
+- Refactored code
+- Added Charts
+- Added Stats in Dashboard
+
+----------------------------------------------------------------------
+
+Date: April 09, 2025
+
+Intern: Gaurab Neupane 
+
+Training: Artist Management System
+
+Details:
+- Refactored code
+- Bug fixes
+- Password reset implementation
+
