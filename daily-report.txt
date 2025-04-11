@@ -561,3 +561,16 @@ Details:
 - Bug fixes
 - Password reset implementation
 
+----------------------------------------------------------------------
+
+Date: April 10, 2025
+
+Intern: Gaurab Neupane 
+
+Training: Artist Management System
+
+Details:
+- Refactored code
+- System tests
+
+
